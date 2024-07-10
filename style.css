@@ -1,0 +1,72 @@
+body{
+    width:100vw;
+    height: 100vh;
+}
+.companyContainer {
+    border: solid red;
+    height: fit-content;
+    width:75%;
+    /*to put the div in the center of the screen*/
+    margin:auto;
+    padding:auto;
+
+    border-width: 0.2px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 4;
+    justify-content: space-around;
+
+  }
+  .company {
+    border-radius: 12px;
+    font-size:22px;
+    height: 25%;
+    width :80%;
+    border: solid grey;
+    margin: auto;
+    margin-top:5px;
+    /* width: 100%; */
+    padding: 5px;
+    justify-content: space-around;
+    background-color: rgb(117, 63, 63);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  #com_a:hover {
+    color: white;
+    background-color: rgb(62, 123, 143);
+  }
+  #com_b:hover {
+    background-color: peru;
+  }
+  #com_c:hover {
+    background-color: rgb(18, 73, 18);
+  }
+  #com_d:hover {
+    color: white;
+    background-color: rgb(87, 12, 87);
+    margin-bottom: 5px;
+  }
+  .bizPic {
+    margin: 1em;
+    border-radius: none;
+    height: 60px;
+    width: 60px;
+    border: solid black;
+  }
+  .title{
+    text-decoration: none;
+    color: beige;
+    width:25%;
+    height: 25%;
+    margin:1em;
+    padding: auto;
+
+  }
+  .title:hover{
+    text-decoration: underline;
+  }
